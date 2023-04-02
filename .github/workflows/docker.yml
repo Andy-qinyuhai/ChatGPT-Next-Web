@@ -33,8 +33,8 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/chatgpt-Next-web:${{ github.ref_name }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/chatgpt-Next-web:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/chatgpt-next-web:${{ github.ref_name }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/chatgpt-next-web:latest
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
