@@ -102,7 +102,7 @@ const cn = {
       Placeholder: "OpenAI API Key",
     },
     Usage: {
-      Title: "账户余额",
+      Title: "消费金额",
       SubTitle(used: any) {
         return `本月已使用 $${used}`;
       },
